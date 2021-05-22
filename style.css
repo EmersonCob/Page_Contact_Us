@@ -92,6 +92,14 @@ section.dark
     font-weight: 300;
 }
 
+section.dark .container .contactInfo .box .text
+{
+    color: #333;
+    transition: 0.5s;
+    font-weight: 500;
+}
+
+
 .container .contactInfo .box .text h3
 {
     font-weight: 500;
@@ -111,7 +119,20 @@ section.dark
     font-size: 30px;
     color: #fff;
     font-weight: 500;
+    transition: 0.2s;
+}
+
+section.dark .content h2
+{
+    color: #00bcd4; 
     transition: 0.3s;
+}
+
+section.dark .content p
+{
+    color: #333; 
+    font-weight: 300;
+    transition: 0.4s;
 }
 
 section.dark div .contactForm form h2
