@@ -10,6 +10,7 @@
 </head>
 <body>
     <section class="contact">
+        <div class="toggle"></div>
         <div class="content">
             <h2>Contact Us</h2>
             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illo cum vero hic veritatis explicabo nesciunt rem, eum debitis eos facere nobis obcaecati saepe laudantium itaque perspiciatis sapiente deleniti fugiat consequuntur.</p>
@@ -60,5 +61,12 @@
             </div>
         </div>
     </section>
+    <script>
+        const contact = document.querySelector('.contact');     
+        const toggle = document.querySelector('.toggle'); 
+        toggle.onclick = function(){
+            sec.classList.toggle('dark')
+        }    
+    </script>
 </body>
 </html>

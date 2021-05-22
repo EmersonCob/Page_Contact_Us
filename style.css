@@ -181,3 +181,36 @@
         width: 100%;
     }
 }
+
+.toggle
+{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background: #e9f5ff;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+section.dark .toggle
+{
+    background: #404852;
+}
+
+.toggle:before
+{
+    content: '\f186';
+    font-family: fontAwesome;
+    color: #2fa1ff;
+}
+
+section.dark .toggle::before
+{
+    content: '\f185';
+    color: #fff;
+}
