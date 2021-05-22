@@ -28,20 +28,20 @@ section.dark
     background-size: cover;
 }
 
-.contact .content
+.sec .content
 {
     max-width: 800px;
     text-align: center;
 }
 
-.contact .content h2
+.sec .content h2
 {
     font-size: 36px;
     font-weight: 500;
     color: #fff;
 }
 
-.contact .content p
+.sec .content p
 {
     font-weight: 300;
     color: #fff;
@@ -170,7 +170,7 @@ section.dark
 
 @media (max-width: 991px)
 {
-    .contact
+    .sec
     {
         padding: 50px;
     }
@@ -204,21 +204,15 @@ section.dark
     cursor: pointer;
 }
 
-
-section.dark .toggle
-{
-    background: #404852;
-}
-
 .toggle:before
 {
-    content: '\f186';
+    content: '\f185';
     font-family: fontAwesome;
-    color: #2fa1ff;
+    color: #fff;
 }
 
 section.dark .toggle::before
 {
-    content: '\f185';
-    color: #fff;
+    content: '\f186';
+    color: #2fa1ff;
 }
