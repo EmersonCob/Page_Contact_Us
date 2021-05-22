@@ -43,7 +43,7 @@ section.dark
 
 .sec .content p
 {
-    font-weight: 300;
+    font-weight: 400;
     color: #fff;
 }
 
@@ -89,7 +89,7 @@ section.dark
     font-size: 16px;
     color: #fff;
     flex-direction: column;
-    font-weight: 300;
+    font-weight: 500;
 }
 
 section.dark .container .contactInfo .box .text
@@ -131,7 +131,7 @@ section.dark .content h2
 section.dark .content p
 {
     color: #333; 
-    font-weight: 300;
+    font-weight: 400;
     transition: 0.4s;
 }
 
@@ -222,7 +222,7 @@ section.dark div .contactForm form h2
     position: absolute;
     top: 20px;
     right: 20px;
-    background: #e9f5ff;
+    background: #7198a180;
     width: 30px;
     height: 30px;
     border-radius: 50%;
@@ -243,4 +243,5 @@ section.dark .toggle::before
 {
     content: '\f186';
     color: #2fa1ff;
+    transition: 0.5s;
 }
