@@ -8,7 +8,7 @@
     font-family: 'Poppins', sans-serif;
 }
 
-.contact 
+section  
 {
     position: relative;
     min-height: 100vh;
@@ -18,6 +18,13 @@
     align-items: center;
     flex-direction: column;
     background: url(./img/img1.jpg);
+    background-size: cover;
+    transition: background 0.5s;
+}
+
+section.dark
+{
+    background: url(./img/img2.jpg);
     background-size: cover;
 }
 
@@ -196,6 +203,7 @@
     align-items: center;
     cursor: pointer;
 }
+
 
 section.dark .toggle
 {
