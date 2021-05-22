@@ -102,15 +102,22 @@ section.dark
 {
     width: 40%;
     padding: 40px;
-    background: #fff;
+    background: #0019239f;
     border-radius: 5px;
 }
 
 .contactForm h2
 {
     font-size: 30px;
-    color: #333;
+    color: #fff;
     font-weight: 500;
+    transition: 0.3s;
+}
+
+section.dark div .contactForm form h2
+{
+    color: #00bcd4;
+
 }
 
 .contactForm .inputBox
@@ -124,7 +131,7 @@ section.dark
 .contactForm .inputBox textarea
 {
     width: 100%;
-    padding: 5px 0;
+    padding: 5px 5px;
     font-size: 16px;
     margin: 10px 0;
     border: none;
@@ -137,7 +144,7 @@ section.dark
 {
     position: absolute;
     left: 0;
-    padding: 5px 0;
+    padding: 5px 5px;
     font-size: 16px;
     margin: 10px 0;
     pointer-events: none;
@@ -151,8 +158,8 @@ section.dark
 .contactForm .inputBox textarea:valid ~ span 
 {
     color: #00bcd4;
-    font-size: 12px;
-    transform: translateY(-20px);
+    font-size: 13px;
+    transform: translateY(-25px);
 
 }
 
